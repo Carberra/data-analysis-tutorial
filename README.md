@@ -12,13 +12,13 @@ You can [browse the tags](https://github.com/Carberra/data-analysis-tutorial/rel
 
 |                  | Required  | Used in series |
 | ---------------- | --------- | -------------- |
-| **Python**       | >= 3.7.1  | 3.8.6          |
-| **pandas**       | >= 1.2.0  | 1.2.2          |
+| **Python**       | >= 3.7.1  | 3.9.2          |
+| **pandas**       | >= 1.2.0  | 1.2.3          |
 | **seaborn**      | >= 0.11.0 | 0.11.1         |
 | **scikit-learn** | >= 0.20.0 | 0.24.1         |
-| **openpyxl**     | >= 3.0.0  | 3.0.6          |
-| **ipykernel\***  | >= 5.0.0  | 5.5.0          |
-| **analytix\*\*** | >= 1.0.0  | N/A            |
+| **openpyxl**     | >= 3.0.0  | 3.0.7          |
+| **ipykernel\***  | >= 5.0.0  | 5.5.3          |
+| **analytix\*\*** | >= 1.1.1  | N/A            |
 
 *This is only needed if you are using IPython notebooks. These are used in the series.
 **This library was used to get the data being analysed, and does not feature in the series.
@@ -29,10 +29,10 @@ To install the necessary libraries, run one of the the following commands:
 
 ```bash
 # Windows
-py -3.8 -m pip install pandas seaborn scikit-learn openpyxl ipykernel analytix
+py -3.9 -m pip install pandas seaborn scikit-learn openpyxl ipykernel analytix
 
 # Linux/macOS
-python3.8 -m pip install pandas seaborn scikit-learn openpyxl ipykernel analytix
+python3.9 -m pip install pandas seaborn scikit-learn openpyxl ipykernel analytix
 
 # In a virtual environment
 pip install pandas seaborn scikit-learn openpyxl ipykernel analytix
