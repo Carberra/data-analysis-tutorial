@@ -8,11 +8,18 @@ You can [browse the tags](https://github.com/Carberra/data-analysis-tutorial/rel
 
 ## Prerequisites
 
-### Version table
+### Things you'll need
+
+- [Python 3.7.1 or greater](https://python.org/downloads)
+- A Jupyter-compatible development environment
+    - [Visual Studio Code](https://code.visualstudio.com)
+    - [The Jupyter online IDE](https://jupyter.org)
+- Some data to analyse! If you're stuck for ideas, [you can use these datasets](https://github.com/Carberra/data-analysis-tutorial/tree/main/datasets).
+
+### Dependency table
 
 |                  | Required  | Used in series |
 | ---------------- | --------- | -------------- |
-| **Python**       | >= 3.7.1  | 3.9.2          |
 | **pandas**       | >= 1.2.0  | 1.2.3          |
 | **seaborn**      | >= 0.11.0 | 0.11.1         |
 | **scikit-learn** | >= 0.20.0 | 0.24.1         |
